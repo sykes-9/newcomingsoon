@@ -1,0 +1,135 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #32527B;
+    
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+
+.text-header{
+    text-align: center;
+}
+
+.text-header h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 30;
+    margin-top: 20px;
+}
+
+.text-parag{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.text-parag p{
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.842);
+}
+
+.video-section{
+    display: flex;
+    justify-content: center;
+}
+
+.video-section video{
+    width: 380px;
+    border-radius: 10px;
+    margin-top: -50px;
+    height: 390px;
+}
+
+.join-text{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.join-text p{
+    color: white;
+    font-size: 22px;
+}
+
+.user-cards{
+    display: flex;
+    justify-content: center;
+}
+
+.user-cards .card{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 14px;
+    position: relative;
+}
+
+.card-icon{
+    display: flex;
+    justify-content: center;
+}
+
+.card-icon > ion-icon{
+    font-size: 40px;
+}
+
+.card-content{
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-brief{
+    margin-top: 30px;
+}
+
+.card-brief p{
+    white-space: nowrap;
+    text-align: center;
+}
+
+.card-category{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card-category p{
+    font-size: 26px;
+}
+
+.card-btn{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.card-btn button{
+    width: 120px;
+    height: 40px;
+    background-color: #253952;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons > ion-icon{
+    font-size: 35px;
+    background-color: #fff;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+
+
+
+
