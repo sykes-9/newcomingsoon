@@ -1,6 +1,6 @@
 body {
     font-family: "Open Sans", sans-serif;
-    background-color: #32527B;
+    background-color: #fff;
     
   }
 
@@ -10,13 +10,17 @@ body {
     box-sizing: border-box;
 } 
 
+a{
+    text-decoration: none;
+}
+
 
 .text-header{
     text-align: center;
 }
 
 .text-header h1{
-    color: white;
+    color: rgb(96, 96, 209);
     font-size: 40px;
     font-weight: 30;
     margin-top: 20px;
@@ -29,7 +33,7 @@ body {
 
 .text-parag p{
     font-size: 22px;
-    color: rgba(255, 255, 255, 0.842);
+    color: rgb(96, 96, 209);
 }
 
 .video-section{
@@ -50,7 +54,7 @@ body {
 }
 
 .join-text p{
-    color: white;
+    color: rgb(96, 96, 209);
     font-size: 22px;
 }
 
@@ -62,7 +66,7 @@ body {
 .user-cards .card{
     width: 400px;
     height: 500px;
-    background-color: white;
+    background-color: lightblue;
     margin: 20px;
     border-radius: 14px;
     position: relative;
@@ -75,6 +79,7 @@ body {
 
 .card-icon > ion-icon{
     font-size: 40px;
+    color: rgb(96, 96, 209);
 }
 
 .card-content{
@@ -92,6 +97,7 @@ body {
 .card-brief p{
     white-space: nowrap;
     text-align: center;
+    color: rgb(96, 96, 209);
 }
 
 .card-category{
@@ -101,7 +107,9 @@ body {
 
 .card-category p{
     font-size: 26px;
+    color: rgb(96, 96, 209);
 }
+
 
 .card-btn{
     text-align: center;
@@ -111,10 +119,24 @@ body {
 .card-btn button{
     width: 120px;
     height: 40px;
-    background-color: #253952;
-    color: #fff;
+    background-color: #fff;
+    color: rgb(96, 96, 209);
     border-radius: 5px;
+    border: #fff;
+    cursor: pointer;
 }
+.card-btn a{
+    width: 120px;
+    height: 80px;
+    background-color: #fff;
+    color: rgb(96, 96, 209);
+    border-radius: 5px;
+    border: #fff;
+    cursor: pointer;
+    padding: 15px;
+}
+
+
 
 
 .social-icons{
@@ -127,6 +149,12 @@ body {
     background-color: #fff;
     margin: 15px;
     border-radius: 5px;
+    color: rgb(96, 96, 209);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
 }
 
 
