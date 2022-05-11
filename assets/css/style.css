@@ -164,11 +164,40 @@ a{
 
 @media screen and (max-width: 420px) and (min-width: 360px){
       .text-header h1{
-          font-size: 21px;
+          font-size: 20px;
           white-space: nowrap;
+          color: rgb(96, 96, 209);
       }
 
       .text-parag p{
-          font-size: 18px;
+          font-size: 16px;
+          text-align: center;
       }
+
+      .card-icon > ion-icon{
+        font-size: 20px;
+        color: rgb(96, 96, 209);
+    }
+
+    .card-category p{
+        font-size: 13px;
+        color: rgb(96, 96, 209);
+    }
+
+    .card-brief p{
+        white-space: nowrap;
+        font-size: 8px;
+    }
+
+    .user-cards .card{
+        width: 350px !important;
+        height: 300px;
+    }
+
+    .card-btn a{
+        padding: 10px 7px;
+        white-space: nowrap;
+        font-size: 13px;
+
+    }
 }
