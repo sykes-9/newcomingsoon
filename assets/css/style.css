@@ -171,8 +171,8 @@ a{
       }
 
       .text-parag p{
-          font-size: 14px;
-          font-weight: 400;
+          font-size: 10px;
+          font-weight: 500;
           color: rgb(96, 96, 209);
       }
 
@@ -192,7 +192,7 @@ a{
     }
 
     .join-text p{
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .user-cards .card{
