@@ -164,19 +164,20 @@ a{
 
 @media screen and (max-width: 420px) and (min-width: 360px){
       .text-header h1{
-          font-size: 20px;
+          font-size: 18px;
           font-weight: 400;
           white-space: nowrap;
           color: rgb(96, 96, 209);
       }
 
       .text-parag p{
-          font-size: 16px;
-          text-align: center;
+          font-size: 14px;
+          font-weight: 400;
+          color: rgb(96, 96, 209);
       }
 
       .card-icon > ion-icon{
-        font-size: 20px;
+        font-size: 23px;
         color: rgb(96, 96, 209);
     }
 
@@ -187,7 +188,11 @@ a{
 
     .card-brief p{
         white-space: nowrap;
-        font-size: 8px;
+        font-size: 13px;
+    }
+
+    .join-text p{
+        font-size: 18px;
     }
 
     .user-cards .card{
@@ -196,9 +201,17 @@ a{
     }
 
     .card-btn a{
-        padding: 5px 3px;
+        padding: 10px;
         white-space: nowrap;
-        font-size: 8px;
+        font-size: 12px;
 
     }
+
+    .user-cards{
+        display: grid;
+    }
+
+   .social-icons > ion-icon {
+       font-size: 30px;
+   }
 }
