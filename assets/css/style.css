@@ -165,6 +165,7 @@ a{
 @media screen and (max-width: 420px) and (min-width: 360px){
       .text-header h1{
           font-size: 20px;
+          font-weight: 400;
           white-space: nowrap;
           color: rgb(96, 96, 209);
       }
