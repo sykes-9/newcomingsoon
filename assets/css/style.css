@@ -180,6 +180,10 @@ a{
           color: rgb(96, 96, 209);
       }
 
+      .video-section video{
+          max-width: 100%;
+      }
+
       .card-icon > ion-icon{
         font-size: 23px;
         color: rgb(96, 96, 209);
@@ -202,6 +206,7 @@ a{
     .user-cards .card{
         width: 350px !important;
         height: 300px;
+        max-width: 100%;
     }
 
     .card-btn a{
