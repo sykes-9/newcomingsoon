@@ -163,7 +163,11 @@ a{
 /* Responsive section */
 
 @media screen and (max-width: 420px) and (min-width: 360px){
-      .text-header h1{
+    .logo img{
+        max-width: 100%;
+    } 
+    
+    .text-header h1{
           font-size: 18px;
           font-weight: 400;
           white-space: nowrap;
